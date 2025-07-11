@@ -9,7 +9,7 @@ export default function Contact() {
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5 }}
-                className="text-5xl font-extrabold text-center text-gray-900 mb-12 mt-12"
+                className="text-5xl font-extrabold text-center text-gray-900 mb-3 mt-12"
                 id="contact"
             >
                 Work with Me
@@ -18,16 +18,16 @@ export default function Contact() {
 
                 {/* Text & Contact */}
                 <motion.div
-                    className="md:w-1/2 space-y-6"
+                    className="md:w-1/2"
                     initial={{ opacity: 0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                     viewport={{ once: true }}
                 >
                     <div className="">
-                        <div className="text-2xl space-y-4">
+                        <div className="text-xl sm:text-3xl space-y-4">
                             <p>📞 09 756 063 900</p>
-                            <p>📨 ferozgraphicdesigner@gmail.com</p>
+                            <p>📨ferozgraphicdesigner@gmail.com</p>
                             <p>📍 Mandalay, Myanmar</p>
                             <p>💬 @ferozdesignera</p>
                             <p>📘 Feroz Design Era</p>

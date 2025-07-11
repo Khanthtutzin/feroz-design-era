@@ -101,6 +101,22 @@ export default function About() {
                             </div>
                         </motion.div>
 
+                        {/* Achievements Section */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.5, delay: 0.3 }}
+                            className="grid gap-y-5 mt-10 md:mt-0" // Added top margin for better separation on smaller screens
+                        >
+                            <h3 className="font-bold text-3xl text-gray-900">Achievements</h3>
+                            <div className="bg-white p-4 rounded-lg shadow-md grid gap-y-4">
+                                <h5 className="font-bold text-xl text-gray-800">Top 3 Nominated in MAI</h5>
+                                <span className="opacity-75 pl-2 flex items-center text-gray-700"><Dot className="mr-1 text-blue-500" /> Mastering Adobe Illustrator</span>
+                                <h5 className="font-bold text-xl text-gray-800">Top 10 Nominated in MAP</h5>
+                                <span className="opacity-75 pl-2 flex items-center text-gray-700"><Dot className="mr-1 text-blue-500" /> Mastering Adobe Photoshop</span>
+                            </div>
+                        </motion.div>
+
                         {/* Software Skills Section */}
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
@@ -125,21 +141,6 @@ export default function About() {
                             </div>
                         </motion.div>
 
-                        {/* Achievements Section */}
-                        <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.5, delay: 0.3 }}
-                            className="grid gap-y-5 mt-10 md:mt-0" // Added top margin for better separation on smaller screens
-                        >
-                            <h3 className="font-bold text-3xl text-gray-900">Achievements</h3>
-                            <div className="bg-white p-4 rounded-lg shadow-md grid gap-y-4">
-                                <h5 className="font-bold text-xl text-gray-800">Top 3 Nominated in MAI</h5>
-                                <span className="opacity-75 pl-2 flex items-center text-gray-700"><Dot className="mr-1 text-blue-500" /> Mastering Adobe Illustrator</span>
-                                <h5 className="font-bold text-xl text-gray-800">Top 10 Nominated in MAP</h5>
-                                <span className="opacity-75 pl-2 flex items-center text-gray-700"><Dot className="mr-1 text-blue-500" /> Mastering Adobe Photoshop</span>
-                            </div>
-                        </motion.div>
                     </div>
 
                 </div>

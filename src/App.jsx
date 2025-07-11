@@ -6,6 +6,7 @@ import NavBar from './assets/components/NavBar'
 import About from './assets/components/About'
 import Contact from './assets/components/Contact'
 import Projects from './assets/components/Projects'
+import BannerGallery from './assets/components/BannerGallery'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <About />
       <Projects />
+      <BannerGallery />
       <Contact />
     </>
   )

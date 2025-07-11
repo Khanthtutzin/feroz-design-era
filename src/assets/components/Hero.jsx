@@ -13,7 +13,7 @@ export default function Hero() {
                 transition={{ duration: 0.8 }}
             >
                 <h2 className="text-7xl font-bold flex items-center gap-2">
-                    Design something beautiful.
+                    Design Something Beautiful.
                 </h2>
                 <div className="bg-white p-7 rounded-lg shadow-md grid gap-y-4">
                     <p className="text-lg leading-relaxed">
