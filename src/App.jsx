@@ -5,6 +5,7 @@ import Hero from './assets/components/Hero'
 import NavBar from './assets/components/NavBar'
 import About from './assets/components/About'
 import Contact from './assets/components/Contact'
+import Projects from './assets/components/Projects'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <Hero />
       <About />
+      <Projects />
       <Contact />
     </>
   )

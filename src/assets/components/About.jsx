@@ -31,9 +31,16 @@ export default function About() {
 
         <>
 
-            <h1 className="text-6xl text-center font-bold pb-10" id="about">About Me</h1>
-            <section className="flex items-center justify-between mx-auto py-5">
-
+            <section className="justify-between mx-auto py-5">
+                <motion.h2
+                    initial={{ opacity: 0, y: -50 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                    className="text-5xl font-extrabold text-center text-gray-900 mb-12"
+                    id="about"
+                >
+                    About Me
+                </motion.h2>
                 <div className="mx-auto px-4 sm:px-6 lg:px-8"> {/* Added padding for better responsiveness */}
                     <div className="grid md:grid-cols-2 gap-x-20 gap-y-10 items-start"> {/* Adjusted gap for better spacing */}
                         {/* Education Section */}

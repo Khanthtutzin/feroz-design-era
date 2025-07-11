@@ -5,8 +5,17 @@ import cetificate from '../images/cetificate.jpg'
 export default function Contact() {
     return (
         <>
-            <h1 className="text-6xl text-center font-bold py-10" id="contact">Contact Me</h1>
-            <section id="about" className="bg-white px-8 md:px-20 py-20 flex flex-col md:flex-row items-center justify-between gap-12">
+            <motion.h2
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className="text-5xl font-extrabold text-center text-gray-900 mb-12 mt-12"
+                id="contact"
+            >
+                Work with Me
+            </motion.h2>
+            <section id="contact" className="bg-white px-8 md:px-20 py-20 flex flex-col md:flex-row items-center justify-between gap-12">
+
                 {/* Text & Contact */}
                 <motion.div
                     className="md:w-1/2 space-y-6"

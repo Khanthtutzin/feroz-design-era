@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import pfp from '../images/pfp.webp'
+import { Link } from "react-scroll";
 
 export default function Hero() {
     return (
@@ -12,7 +13,7 @@ export default function Hero() {
                 transition={{ duration: 0.8 }}
             >
                 <h2 className="text-7xl font-bold flex items-center gap-2">
-                    Hello <span>👋</span>
+                    Design something beautiful.
                 </h2>
                 <div className="bg-white p-7 rounded-lg shadow-md grid gap-y-4">
                     <p className="text-lg leading-relaxed">
@@ -21,7 +22,7 @@ export default function Hero() {
                     </p>
                 </div>
                 <button className="px-6 py-2 border border-black hover:bg-black hover:text-white hover:rounded-3xl transition duration-300">
-                    View My Works
+                    <Link to="projects">View My Works</Link>
                 </button>
             </motion.div>
 
