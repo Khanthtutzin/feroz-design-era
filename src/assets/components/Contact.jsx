@@ -65,7 +65,7 @@ export default function Contact() {
                     <img
                         src={cetificate}
                         alt="Feroz Portrait"
-                        className="rounded-3xl shadow-md max-w-lg"
+                        className="rounded-3xl shadow-md max-w-sm"
                     />
                 </motion.div>
             </section>
