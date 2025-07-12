@@ -137,7 +137,7 @@ export default function BannerGallery() {
     }
 
     return (
-        <section id="banner-gallery" className="py-16 bg-gray-100 overflow-hidden">
+        <section id="gallery" className="py-16 bg-gray-100 overflow-hidden">
             {/* Inject CSS styles directly */}
             <style>{galleryStyles}</style>
 
