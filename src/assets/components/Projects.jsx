@@ -88,7 +88,7 @@ export default function Projects() {
                     const projectId = item.sys.id;
 
                     // Resolve image URLs from the 'includes.Asset' array
-                    const projectImages = (projectFields.images || []).map(imageRef => {
+                    const projectImages = (projectFields.media || []).map(imageRef => {
                         const asset = data.includes?.Asset?.find(asset => asset.sys.id === imageRef.sys.id);
                         // Contentful asset URLs typically start with //
                         return asset ? `https:${asset.fields.file.url}` : 'https://placehold.co/300x300/CCCCCC/000000?text=Image+Not+Found';

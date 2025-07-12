@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import logo from '../images/logo-removebg-preview.png'
 
-const navItems = ["Home", "About", "Projects", "Services", "Contact"];
+const navItems = ["Home", "About", "Projects", "Gallery", "Contacts"];
 
 export default function NavBar() {
     const [isOpen, setIsOpen] = useState(false);

@@ -7,6 +7,7 @@ import About from './assets/components/About'
 import Contact from './assets/components/Contact'
 import Projects from './assets/components/Projects'
 import BannerGallery from './assets/components/BannerGallery'
+import Footer from './assets/components/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <BannerGallery />
       <Contact />
+      <Footer />
     </>
   )
 }

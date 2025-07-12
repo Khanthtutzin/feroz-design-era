@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import pfp from '../images/pfp.webp'
+import profile from '../images/PortfolioPf.jpg'
 import { Link } from "react-scroll";
 
 export default function Hero() {
@@ -28,14 +28,14 @@ export default function Hero() {
 
             {/* Image Right */}
             <motion.div
-                className="md:w-1/2 flex justify-center"
+                className="md:w-1/2 pt-5 flex justify-center"
                 initial={{ opacity: 0, scale: 0.95 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.7 }}
                 viewport={{ once: true }}
             >
                 <img
-                    src={pfp}
+                    src={profile}
                     alt="Feroz About"
                     className="rounded-[32px] w-full max-w-sm object-cover shadow-lg"
                 />
